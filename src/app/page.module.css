@@ -36,7 +36,7 @@
   font-size: 1.8rem;
   font-weight: 300;
 }
-.title:hover,
+.header .title:hover,
 .desc:hover {
   color: var(--color-pink);
 }

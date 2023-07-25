@@ -16,7 +16,7 @@ const Card = (param) => {
         <div className={styles.preorder}>PRE-ORDER</div>
       </div>
       <div className={styles.cardBody}>
-        <h1>{param.title}</h1>
+        <h1 className={styles.title}>{param.title}</h1>
         <div className={styles.amount}>${param.amount}</div>
       </div>
       <p>{param.desc}</p>

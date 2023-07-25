@@ -1,7 +1,8 @@
 import styles from './page.module.css';
 import { SlArrowDown } from 'react-icons/sl';
 import Link from 'next/link';
-import Cards from '@/components/cards/Cards';
+import CardsX2 from '@/components/cards/CardsX2';
+import CardsX3 from '@/components/cards/CardsX3';
 import Image from 'next/image';
 
 export default function Home() {
@@ -12,11 +13,11 @@ export default function Home() {
           <h1 className={styles.title}>A CONSOLE FOR EVERY WORKFLOW</h1>
           <p className={styles.desc}>Discover the perfect console for yours.</p>
         </div>
-        <Link href='/' className={styles.arrow}>
+        <Link href='./#card' className={styles.arrow}>
           <SlArrowDown size={36} />
         </Link>
       </div>
-      <Cards />
+      <CardsX2 id='card' />
       <div className={styles.banner}>
         <Image
           src='/shop-banner-module.webp'
@@ -29,6 +30,7 @@ export default function Home() {
           <div className={styles.bannerBody}>Add-on to make it perfect.</div>
         </div>
       </div>
+      <CardsX3 />
     </div>
   );
 }
