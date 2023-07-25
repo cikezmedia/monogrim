@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from '@/components/card/card.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Card = (param) => {
   return (
-    <div className={styles.container}>
+    <Link href='/' className={styles.container}>
       <div className={styles.card}>
         <Image
           src={param.img}
@@ -12,13 +13,14 @@ const Card = (param) => {
           fill={true}
           className={styles.img}
         />
+        <div className={styles.preorder}>PRE-ORDER</div>
       </div>
       <div className={styles.cardBody}>
         <h1>{param.title}</h1>
-        <span className={styles.amount}>${param.amount}</span>
+        <div className={styles.amount}>${param.amount}</div>
       </div>
       <p>{param.desc}</p>
-    </div>
+    </Link>
   );
 };
 

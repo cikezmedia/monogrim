@@ -9,7 +9,7 @@ const Cards = () => {
         title='MINI CONSOLE'
         desc='Ideal for everyday shortcuts. Adaptable to any workflow.'
         img='/Everyday-Bundle-Mocks-final_1920x1281_crop_center.jpg.webp'
-        amount='198'
+        amount='147'
       />
       <Card
         title='AUDIO CONSOLE'
