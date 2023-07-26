@@ -17,7 +17,7 @@ export default function Home() {
           <SlArrowDown size={36} />
         </Link>
       </div>
-      <CardsX2 id='card' />
+      <CardsX2 />
       <div className={styles.banner}>
         <Image
           src='/shop-banner-module.webp'

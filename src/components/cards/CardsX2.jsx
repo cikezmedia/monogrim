@@ -22,6 +22,7 @@ const Cards = () => {
         desc='Ideal for everyday shortcuts. Adaptable to any workflow.'
         img='/Packaging_StudioClosedBracket1_Monogram_May20204507_548446cb-17c9-4fc2-8b12-ae1b1a308a7e_1920x1280_crop_center.jpg.webp'
         amount='476'
+        id='card'
       />
       <Card
         title='VIDEO CONSOLE'

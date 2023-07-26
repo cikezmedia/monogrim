@@ -19,10 +19,10 @@ const NavBar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.nav}>
-        <div className={styles.logoContainer}>
+        <Link href='/' className={styles.logoContainer}>
           <Image src='/logo-main.png' alt='Logo' width={51} height={38} />{' '}
           MONOGRIM
-        </div>
+        </Link>
         <div className={styles.mobile}>
           {!show && (
             <AiOutlineMenu

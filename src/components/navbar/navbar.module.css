@@ -25,6 +25,7 @@
   letter-spacing: 3px;
   font-weight: 500;
   color: var(--color-pink);
+  text-decoration: none;
 }
 .mobile {
   display: flex;
