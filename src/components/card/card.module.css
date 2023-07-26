@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 .card {
-  height: 380px;
+  height: 320px;
   background-color: var(--color-gray);
   position: relative;
   padding: 20px;
@@ -47,4 +47,9 @@
   border-radius: 20px;
   z-index: 10;
   right: 0;
+}
+@media screen and (min-width: 768px) {
+  .card {
+    height: 370px;
+  }
 }
