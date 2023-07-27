@@ -46,6 +46,8 @@
   height: 105vh;
   z-index: 10;
   background-color: var(--color-dark);
+  -webkit-transition: all 5s;
+  transition: all 5s;
 }
 .mobileLogo {
   display: flex;

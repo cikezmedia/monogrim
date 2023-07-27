@@ -14,7 +14,7 @@ const Footer = () => {
       <div className={styles.grid}>
         <div className={styles.card}>
           <div className={styles.cardTitle}>
-            <h4>MONOGRAM</h4>
+            <h4>MONOGRIM</h4>
           </div>
           <div className={styles.cardBody}>
             305 King St. W. Suite 502 Kitchener, ON Canada
